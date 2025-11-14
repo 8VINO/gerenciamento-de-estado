@@ -39,7 +39,7 @@ export default function Home() {
       {/* Carrinho */}
       <View style={styles.card}>
         <Text style={styles.title}>Carrinho</Text>
-        <Text>Valor Total - {carrinho.valorTotal}</Text>
+        <Text>Valor Total - R${carrinho.valorTotal}</Text>
         <Text>Quantidade - {carrinho.quantidade}</Text>
       </View>
     </View>
@@ -87,5 +87,5 @@ const styles = StyleSheet.create({
   buttonText: {
     color: "white",
     textAlign: "center",
-  },
+  },
 });
